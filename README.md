@@ -1,7 +1,7 @@
 <figure>
   <p align="center">
   <img
-  src="https://richie-docs.readthedocs.io/en/latest/_images/richie_summary.png"
+  src="https://richie-docs.readthedocs.io/en/latest/_images/richie.png"
   width="750px"
   </p>
 </figure>
