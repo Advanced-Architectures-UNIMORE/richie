@@ -1,3 +1,5 @@
+# <span style="font-variant:small-caps;">Richie</span>
+
 <figure>
   <p align="center">
   <img
@@ -6,39 +8,31 @@
   </p>
 </figure>
 
-# <span style="font-variant:small-caps;">Richie</span>
-
 ## Quick links
 - Documentation: https://richie-docs.readthedocs.io/en/latest/
 - Tutorials: https://richie-docs.readthedocs.io/en/latest/general/tutorial.html
 
 ## About this project
-<span style="font-variant:small-caps;">**Richie**</span> is an open-source **System-Level Design (SLD) framework**, which is meant to facilitate the _assembling_ and _specialization_ of accelerator-rich Heterogeneous Systems-on-Chip (HeSoCs).
+<span style="font-variant:small-caps;">**Richie**</span> is an open-source **System-Level Design (SLD) framework**, which is meant to facilitate the _assembling_ and _specialization_ of accelerator-rich HeSoCs.
 The project consists of the following key components:
-- <span style="font-variant:small-caps;">**Platform**</span>—Modular and composable accelerator-rich architecture, based on the RISC-V Instruction Set Architecture (ISA).
-- <span style="font-variant:small-caps;">**Toolchain**</span>—Automatic design and specialization accelerator-rich, multi-cluster platforms.
-- <span style="font-variant:small-caps;">**Exploration flow**</span>—Weigh design trade-offs, identifying the best candidate at meeting your application needs. <span style="font-variant:small-caps;">Richie</span> leverages FPGAs to emulate full-stack applications and navigate the HeSoC design space, enabling deeper introspection into the non-idealities occurring at system-level.
+- <span style="font-variant:small-caps;">**Platform**</span>—Modular and composable HeSoC architecture, based on the RISC-V Instruction Set Architecture (ISA);
+- <span style="font-variant:small-caps;">**SLD toolchain**</span>—Automatic design and specialization accelerator-rich, multi-cluster platforms;
+- <span style="font-variant:small-caps;">**Exploration flow**</span>—Weigh design trade-offs, identifying the best platform candidate at meeting the application needs. <span style="font-variant:small-caps;">Richie</span> leverages FPGAs to emulate full-stack applications and navigate the HeSoC design space, enabling deeper introspection into the non-idealities occurring at system-level.
 
 <a href="https://pulp-platform.org">
-<img src="img/pulp_logo_icon.svg" alt="Logo" width="100" align="right">
+<img src="https://richie-docs.readthedocs.io/en/latest/_images/pulp_logo_icon.svg" alt="Logo" width="100" align="right">
 </a>
 
 <span style="font-variant:small-caps;">Richie</span> is a joint development effort leaded by the University of Modena and Reggio Emilia (UNIMORE) and the [PULP (Parallel Ultra-Low Power) Platform group](https://pulp-platform.org/index.html), from ETH Zürich and the University of Bologna.
 
 ## About this repository
-This repository includes various components, which are organized as follows.
+This repository includes various components, which are organized as follows:
 
-This repository contains hardware, software and utilities written as part of the OpenTitan project.
-It is structured as monolithic repository, or "monorepo", where all components live in one repository.
-It exists to enable collaboration across partners participating in the OpenTitan project.
-
-structured the key components of <span style="font-variant:small-caps;">Richie</span>, including:
-
-- `hw`—_Hardware subsystem_, including the platform and accelerators designs. A FPGA build flow and a RTL simulation setup are also included.
-- `sw`—_Software subsystem_, including benchmarks and board boot scripts.
-- `sld`—_SLD toolchains_, automating the hardware-software co-design and optimization phases.
-- `third-party`—_Third-party components_.
-- `env`—_Environment scripts_.
+- `hw`—_Hardware subsystem_, including the platform and accelerators designs, a FPGA build flow and a RTL simulation setup;
+- `sw`—_Software subsystem_, including benchmarks and board boot scripts;
+- `sld-tools`—_SLD toolchain_, to automate and facilitate the hardware-software co-design and specialization of HeSoC components;
+- `third-party`—_Third-party components_, including the HERO software toolchains and PULP SDK;
+- `env`—_Environment scripts_, to set up the repository for different design stages and flows, including FPGA deployment, RTL simulation, HLS synthesis, etc.
 
 ## Documentation
 The project includes comprehensive documentation that can be accessed [online at Read the Docs](https://richie-docs.readthedocs.io/en/latest/).
