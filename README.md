@@ -42,7 +42,7 @@ We are always enthusiastic about potential collaborations and contributions to o
 Have a look at our [contribution guide](https://richie-docs.readthedocs.io/en/latest/general/contributing.html) in order to learn how to contribute code to this repository.
 
 ## Publications
-If you want to use <span style="font-variant:small-caps;">Richie</span> in your research, please cite our work that you can find [listed here](https://richie-docs.readthedocs.io/en/latest/general/publications.html).
+If you want to use <span style="font-variant:small-caps;">Richie</span> in your research, please cite our work that you can find [listed here](https://richie-docs.readthedocs.io/en/latest/publications/publications.html).
 
 ## License
 [Have a look at our guidelines for licensing](https://richie-docs.readthedocs.io/en/latest/general/license.html), or take a look at the full text:
