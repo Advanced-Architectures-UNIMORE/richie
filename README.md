@@ -28,11 +28,11 @@ The project consists of the following key components:
 ## About this repository
 This repository includes various components, which are organized as follows:
 
-- `hw`—_Hardware subsystem_, including the platform and accelerators designs, a FPGA build flow and a RTL simulation setup;
-- `sw`—_Software subsystem_, including benchmarks and board boot scripts;
-- `sld-tools`—_SLD toolchain_, to automate and facilitate the hardware-software co-design and specialization of HeSoC components;
-- `third-party`—_Third-party components_, including the HERO software toolchains and PULP SDK;
-- `env`—_Environment scripts_, to set up the repository for different design stages and flows, including FPGA deployment, RTL simulation, HLS synthesis, etc.
+- `hw`: _Hardware subsystem_, including the platform and accelerators designs, a FPGA build flow and a RTL simulation setup;
+- `sw`: _Software subsystem_, including benchmarks and board boot scripts;
+- `sld-tools`: _SLD toolchain_, to automate and facilitate the hardware-software co-design and specialization of HeSoC components;
+- `third-party`: _Third-party components_, including the HERO software toolchains and PULP SDK;
+- `env`: _Environment scripts_, to set up the repository for different design stages and flows, including FPGA deployment, RTL simulation, HLS synthesis, etc.
 
 ## Documentation
 The project includes comprehensive documentation that can be accessed [online at Read the Docs](https://richie-docs.readthedocs.io/en/latest/).
