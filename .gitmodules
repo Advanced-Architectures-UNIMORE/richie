@@ -1,3 +1,6 @@
 [submodule "sld-tools/richie-sld-toolchain"]
 	path = sld-tools/richie-sld-toolchain
 	url = git@github.com:Advanced-Architectures-UNIMORE/richie-sld-toolchain.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:gbellocchi/richie-docs.git
