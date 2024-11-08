@@ -4,3 +4,6 @@
 [submodule "docs"]
 	path = docs
 	url = git@github.com:gbellocchi/richie-docs.git
+[submodule "richie-hesoc"]
+	path = hw
+	url = git@github.com:Advanced-Architectures-UNIMORE/richie-hesoc.git
