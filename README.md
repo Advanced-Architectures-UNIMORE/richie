@@ -32,7 +32,8 @@ This repository includes various components, which are organized as follows:
 - `sw`: _Software subsystem_, including benchmarks and board boot scripts;
 - `sld-tools`: _SLD toolchain_, to automate and facilitate the hardware-software co-design and specialization of HeSoC components;
 - `third-party`: _Third-party components_, including the HERO software toolchains and PULP SDK;
-- `env`: _Environment scripts_, to set up the repository for different design stages and flows, including FPGA deployment, RTL simulation, HLS synthesis, etc.
+- `env`: _Environment scripts_, to set up the repository for different design stages and flows, including FPGA deployment, RTL simulation, HLS synthesis, etc;
+- `docs`: _Documentation sources_, [mainly written in reStructuredText (reST)](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html), [built with Sphinx](https://www.sphinx-doc.org/en/master/) and [hosted at Read the Docs](https://about.readthedocs.com/).
 
 ## Documentation
 The project includes comprehensive documentation that can be accessed [online at Read the Docs](https://richie-docs.readthedocs.io/en/latest/).
