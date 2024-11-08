@@ -10,3 +10,6 @@
 [submodule "third-party/hero"]
 	path = third-party/hero
 	url = git@github.com:pulp-platform/hero.git
+[submodule "sw/benchmarks/richie-acc-bench"]
+	path = sw/benchmarks/richie-acc-bench
+	url = git@github.com:gbellocchi/richie-acc-bench.git
