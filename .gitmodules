@@ -7,3 +7,6 @@
 [submodule "richie-hesoc"]
 	path = hw
 	url = git@github.com:Advanced-Architectures-UNIMORE/richie-hesoc.git
+[submodule "third-party/hero"]
+	path = third-party/hero
+	url = git@github.com:pulp-platform/hero.git
