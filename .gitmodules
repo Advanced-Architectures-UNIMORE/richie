@@ -1,15 +1,15 @@
 [submodule "sld-tools/richie-sld-toolchain"]
 	path = sld-tools/richie-sld-toolchain
-	url = git@github.com:Advanced-Architectures-UNIMORE/richie-sld-toolchain.git
+	url = https://github.com/Advanced-Architectures-UNIMORE/richie-sld-toolchain.git
 [submodule "docs"]
 	path = docs
-	url = git@github.com:gbellocchi/richie-docs.git
+	url = https://github.com/Advanced-Architectures-UNIMORE/richie-docs.git
 [submodule "richie-hesoc"]
 	path = hw
-	url = git@github.com:Advanced-Architectures-UNIMORE/richie-hesoc.git
+	url = https://github.com/Advanced-Architectures-UNIMORE/richie-hesoc.git
 [submodule "third-party/hero"]
 	path = third-party/hero
-	url = git@github.com:pulp-platform/hero.git
+	url = https://github.com/pulp-platform/hero.git
 [submodule "sw/benchmarks/richie-acc-bench"]
 	path = sw/benchmarks/richie-acc-bench
-	url = git@github.com:gbellocchi/richie-acc-bench.git
+	url = https://github.com/gbellocchi/richie-acc-bench.git
